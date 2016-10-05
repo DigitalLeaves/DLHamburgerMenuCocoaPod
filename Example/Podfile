@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DLHamburgerMenu_Example' do
+  pod 'DLHamburgerMenu', :path => '../'
+
+  target 'DLHamburgerMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
