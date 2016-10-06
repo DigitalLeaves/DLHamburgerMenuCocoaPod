@@ -1,0 +1,16 @@
+PODS:
+  - DLHamburgerMenu (0.1.0)
+
+DEPENDENCIES:
+  - DLHamburgerMenu (from `../`)
+
+EXTERNAL SOURCES:
+  DLHamburgerMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLHamburgerMenu: 5a80c8ad66c8d6124d92325a035f5e5b561431bf
+
+PODFILE CHECKSUM: 2a71644abbb0e70e95ba12741fec395a33458ebf
+
+COCOAPODS: 1.0.1

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DLHamburgerMenu'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DLHamburgerMenu.'
+  s.version          = '1.0.1'
+  s.summary          = 'Hamburger sidebar menu control written entirely in swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DLHamburguerMenu is a "hamburger" sidebar menu control written entirely in swift. It presents a menu over the current visual contents (i.e: Above the current UINavigationController). It's easy to integrate using storyboards.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DLHamburgerMenu'
+  s.homepage         = 'https://github.com/DigitalLeaves/DLHamburgerMenuCocoaPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ignacio Nieto' => 'contact@digitalleaves.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DLHamburgerMenu.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/DigitalLeaves/DLHamburgerMenuCocoaPod.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://ello.co/digitalleaves'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'DLHamburgerMenu/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

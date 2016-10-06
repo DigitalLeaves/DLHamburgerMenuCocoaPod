@@ -1,0 +1,22 @@
+{
+  "name": "DLHamburgerMenu",
+  "version": "0.1.0",
+  "summary": "A short description of DLHamburgerMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DLHamburgerMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ignacio Nieto": "contact@digitalleaves.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DLHamburgerMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DLHamburgerMenu/Classes/**/*"
+}
